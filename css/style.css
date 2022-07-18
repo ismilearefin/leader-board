@@ -92,10 +92,15 @@ hr{
   font-weight: 400;
 }
 /* First section END CSS */
+
+/* Scound section CSS Start */
+
 .lates_course{
   background-color: #ffffff;
   width: 870px;
-  height: 362px;
+  height: 390px;
+  margin-bottom: 28px;
+
 }
 .lates_course h1{
   font-family: 'Poppins', sans-serif;
@@ -103,19 +108,34 @@ hr{
   font-weight: 500;
   color: #562EFF;
   padding-left: 33px;
-  padding-bottom: 33px;
+  padding-bottom: 10px;
   padding-top: 23px; 
   margin: 0px;
 }
+.main_course{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 .courses{
-  width: 252px;
+  width: 240px;
   height: 270px;
-  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 12px; 
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 .info h2{
   margin: 0;
   padding-top: 19px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
 }
+.info p {
+  font-size: 14px;
+  color: #ED6B4F;
+}
+
 .img{
   display: flex;
   justify-content: center;
@@ -130,7 +150,29 @@ hr{
   justify-content: space-evenly;
 }
 .duration{
-  border: 1px solid gray;
-  border-radius: 25px;
-  margin: 0;
+  font-size: 14px;
+  color: #FF4A60;
+  border-radius: 15px;
+  background-color: #FFE4E8;
+  height: 30px;
+  width: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.for_flex-rating{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-star{
+  color: #FFC014;
+  font-size: 12px;
+}
+.fa-star.empty{
+  color: gray;
+  font-size: 12px;
+}
+
+/* scound section CSS END  */
