@@ -92,4 +92,45 @@ hr{
   font-weight: 400;
 }
 /* First section END CSS */
-
+.lates_course{
+  background-color: #ffffff;
+  width: 870px;
+  height: 362px;
+}
+.lates_course h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #562EFF;
+  padding-left: 33px;
+  padding-bottom: 33px;
+  padding-top: 23px; 
+  margin: 0px;
+}
+.courses{
+  width: 252px;
+  height: 270px;
+  border: 1px solid black;
+}
+.info h2{
+  margin: 0;
+  padding-top: 19px;
+}
+.img{
+  display: flex;
+  justify-content: center;
+}
+.img img{
+  height: 104px;
+  width: 100%;
+}
+.rating_duration{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.duration{
+  border: 1px solid gray;
+  border-radius: 25px;
+  margin: 0;
+}
