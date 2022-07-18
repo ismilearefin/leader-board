@@ -176,3 +176,61 @@ hr{
 }
 
 /* scound section CSS END  */
+
+
+/* media query */
+
+/* Mobile device */
+@media only screen and ( max-width:688px){
+  .player {
+    flex-direction: column;
+    align-items: center;
+  }
+  .player img p {
+    padding: 0;
+    margin: 0;
+  }
+  .player_container{
+    height: auto;
+    width: 486px;
+  }
+.player_container h1{
+  display: flex;
+  justify-content: center;
+  font-size: 34px;
+}
+.top_player-div{
+  grid-template-columns: repeat(2,1fr);
+}
+hr{
+  width: 50%;
+}
+/* top_player_end */
+.Top_blog{
+  grid-template-columns: repeat(1, 1fr);
+}
+.blogs{
+  flex-direction: column;
+}
+.blogs img{
+  width: 80%;
+  height: 50%;
+  padding: 0;
+}
+/* blog_End */
+.lates_course{
+  height: auto;
+  width: 75%;
+}
+.lates_course h1{
+  display: flex;
+  justify-content: center;
+  font-size: 34px;
+}
+.main_course{
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  margin-bottom: 25px;
+  gap: 5px;
+}
+}
